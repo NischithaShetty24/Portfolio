@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1e0026;
+    color: white;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1e0026;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* About Me Section */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #39065a;
+}
+
+.about-me-text h1 span, 
+.about-me-text h2 span {
+    color: #ffa500;
+}
+
+.about-me-text h1, .about-me-text h2 {
+    margin-bottom: 10px;
+}
+
+.about-me-text p {
+    margin-bottom: 20px;
+}
+
+.cv-btn {
+    background-color: #ffa500;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.about-me-image img {
+    width: 400px;
+    height: auto;
+}
+
+.about-description {
+    padding: 50px;
+    background-color: #1e0026;
+}
+
+.about-description h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: row-reverse; 
+}
+
+.about-me-image {
+    display: flex;
+    justify-content: flex-start; }
+
+.about-me-image lottie-player {
+    max-width: 400px;
+    height: auto;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left; 
+}
+
+.about-text h3 {
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-text a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+/* Services Section */
+.my-services {
+    padding: 50px;
+    background-color: #39065a;
+    text-align: center;
+}
+
+.my-services h2 {
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-box {
+    background-color: #1e0026;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.service-box h3 {
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color:#1e0026;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #ffa500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color:  #2d033b;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    header {
+        flex-direction: column;
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .about-me {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me-image img {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        width: 150px;
+    }
+
+    form input, form textarea {
+        width: 90%;
+    }}}
+ 
